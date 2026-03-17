@@ -15,16 +15,16 @@ export default function Catalogue() {
           Basico
         </Link>
         <Link
-          href="/formation/jsx"
+          href="/formation/angular"
           className="text-black items-center text-center uppercase text-md bg-purple-500 hover:bg-purple-600 px-6 py-2.5 gap-2 rounded-md font-medium mb-2"
         >
-          JSX
+          Angular
         </Link>
         <Link
-          href="/formation/props"
+          href="/formation/php"
           className="text-black items-center text-center uppercase text-md bg-purple-500 hover:bg-purple-600 px-6 py-2.5 gap-2 rounded-md font-medium mb-2"
         >
-          Props
+          PHP
         </Link>
       </div>
     </div>

@@ -2,16 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function page() {
+export default function PHP() {
   return (
     <div className="flex flex-col justify-center items-center h-screen *:p-4">
       <h1 className="text-3xl font-black text-zinc-700 items-center uppercase">
-        Angular
+        Php
       </h1>
       <div className="bg-zinc-800 items-center justify-center rounded-md mx-auto grid grid-cols-2">
         <Link href="/">
           <Image
-            src="/angular.webp"
+            src="/php.png"
             alt="angular"
             className="max-w-full object-cover items-center"
             width={400}
@@ -48,9 +48,6 @@ export default function page() {
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
             Les formulaires
-          </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Le CLI Angular
           </span>
         </div>
       </div>
