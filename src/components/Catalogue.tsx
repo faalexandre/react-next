@@ -1,9 +1,10 @@
+import { IdCard } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
 export default function Catalogue() {
   return (
-    <div className="w-96 h-96 rounded-lg bg-white justify-center items-center *:p-5">
+    <div className="w-96 h-7xl rounded-lg bg-neutral-content justify-center items-center *:p-5">
       <h1 className="text-2xl text-center font-black text-zinc-800">
         Catalogue
       </h1>
@@ -16,7 +17,7 @@ export default function Catalogue() {
         </Link>
         <Link
           href="/formation/angular"
-          className="text-black items-center text-center uppercase text-md bg-purple-500 hover:bg-purple-600 px-6 py-2.5 gap-2 rounded-md font-medium mb-2"
+          className="text-black items-center text-center uppercase text-md bg-purple-500 hover:bg-purple-600 px-6 py-2.5 gap-2 rounded-md font-medium mb-2 "
         >
           Angular
         </Link>
@@ -25,6 +26,31 @@ export default function Catalogue() {
           className="text-black items-center text-center uppercase text-md bg-purple-500 hover:bg-purple-600 px-6 py-2.5 gap-2 rounded-md font-medium mb-2"
         >
           PHP
+        </Link>
+        <Link
+          href="/formation/react"
+          className="text-black items-center text-center uppercase text-md bg-purple-500 hover:bg-purple-600 px-6 py-2.5 gap-2 rounded-md font-medium mb-2"
+        >
+          React
+        </Link>
+
+        <Link
+          href="/formation/ia"
+          className="text-black items-center text-center uppercase text-md bg-purple-500 hover:bg-purple-600 px-6 py-2.5 gap-2 rounded-md font-medium mb-2"
+        >
+          IA
+        </Link>
+        <Link
+          href="/formation/tech"
+          className="text-black items-center text-center uppercase text-md bg-purple-500 hover:bg-purple-600 px-6 py-2.5 gap-2 rounded-md font-medium mb-2"
+        >
+          Tech
+        </Link>
+        <Link
+          href="/formation/python"
+          className="text-black items-center text-center uppercase text-md bg-purple-500 hover:bg-purple-600 px-6 py-2.5 gap-2 rounded-md font-medium mb-2"
+        >
+          Python
         </Link>
       </div>
     </div>

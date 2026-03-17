@@ -2,61 +2,58 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function page() {
+export default function Tech() {
   return (
-    <div
-      className="flex flex-col justify-center items-center h-screen *:p-4"
-      id="menuCache"
-    >
-      <h1 className="text-3xl font-black text-zinc-700 items-center uppercase">
-        Angular
+    <div className="flex flex-col justify-center items-center h-screen *:p-4">
+      <h1 className="text-3xl font-black text-zinc-700 items-center uppercase gap-2">
+        Tech Lead
       </h1>
-      <div
-        className="bg-zinc-800 items-center justify-center rounded-md mx-auto grid grid-cols-2 "
-        id="menu"
-      >
+      <div className="bg-zinc-800 items-center justify-center rounded-md mx-auto grid grid-cols-2">
         <Link href="/">
           <Image
-            src="/angular.webp"
+            src="/tech-lead.webp"
             alt="angular"
             className="max-w-full object-cover items-center"
             width={400}
             height={400}
           />
         </Link>
-        <div className="grid grid-cols-2 p-5 gap-2 *:text-zinc-800 ">
+        <div className="grid grid-cols-2 p-5 gap-2 *:text-zinc-800 relative ">
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5  rounded-sm self-start items-center">
-            Components
+            Vision technique
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les Modules
+            Architecture logicielle
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Le data binding
+            Leadership technique
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les directives
+            Mentorat
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les services
+            Qualité du code
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            L'injection de dépendances
+            Prise de décision
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Le routing
+            Gestion de la dette technique
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les observables (RxJS)
-          </span>
-          <span className="bg-purple-500   hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les requêtes HTTP
+            Culture DevOps
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les formulaires
+            Communication
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Le CLI Angular
+            Gestion des priorités
+          </span>
+          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+            Trade-offs (compromis)
+          </span>
+          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+            Responsabilité globale
           </span>
         </div>
       </div>

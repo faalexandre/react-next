@@ -8,7 +8,7 @@ export default function PHP() {
       <h1 className="text-3xl font-black text-zinc-700 items-center uppercase">
         Php
       </h1>
-      <div className="bg-zinc-800 items-center justify-center rounded-md mx-auto grid grid-cols-2">
+      <div className="bg-zinc-800 items-center justify-center rounded-md mx-auto grid grid-cols-2 max-w-8xl">
         <Link href="/">
           <Image
             src="/php.png"
@@ -18,36 +18,42 @@ export default function PHP() {
             height={400}
           />
         </Link>
-        <div className="grid grid-cols-2 p-5 gap-2 *:text-zinc-800 relative ">
+        <div className="grid grid-cols-2 p-5 gap-2 *:text-zinc-800  ">
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5  rounded-sm self-start items-center">
-            Components
+            Syntaxe de base
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les Modules
+            Les variables
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Le data binding
+            Les types de données
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les directives
+            Les structures de contrôle
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les services
+            Les fonctions
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            L'injection de dépendances
+            Les tableaux (arrays)
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Le routing
+            Programmation orientée objet (POO)
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les observables (RxJS)
+            Interaction avec les formulaires
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les requêtes HTTP
+            Accès aux bases de données
           </span>
           <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
-            Les formulaires
+            Gestion des sessions
+          </span>
+          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+            Inclusion de fichiers
+          </span>
+          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+            Formulaire
           </span>
         </div>
       </div>
