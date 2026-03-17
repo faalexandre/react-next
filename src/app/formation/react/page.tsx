@@ -19,37 +19,37 @@ export default function ReactPage() {
           />
         </Link>
         <div className="grid grid-cols-2 p-5 gap-2 *:text-zinc-800 relative ">
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5  rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5  rounded-sm self-start items-center">
             Les composants
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             Les props (propriétés)
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             Le state (état)
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             Le cycle de vie (hooks)
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             Le Virtual DOM
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             JSX
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             Gestion des événements
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             Le rendu conditionnel
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             Les listes et clés (keys)
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             Gestion des formulaires
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#5d67f7] hover:bg-[#413fec] px-6 py-2.5 rounded-sm self-start items-center">
             Gestion d’état globale
           </span>
         </div>

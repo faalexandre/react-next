@@ -19,34 +19,34 @@ export default function Python() {
           />
         </Link>
         <div className="grid grid-cols-2 p-5 gap-2 *:text-zinc-800 relative ">
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5  rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5  rounded-sm self-start items-center">
             Les variables
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5 rounded-sm self-start items-center">
             Les types de données
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5 rounded-sm self-start items-center">
             Les structures de contrôle
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5 rounded-sm self-start items-center">
             Les fonctions
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5 rounded-sm self-start items-center">
             Les modules et packages
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5 rounded-sm self-start items-center">
             Programmation orientée objet (POO)
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5 rounded-sm self-start items-center">
             Gestion des erreurs (exceptions)
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5 rounded-sm self-start items-center">
             Lecture / écriture de fichiers
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5 rounded-sm self-start items-center">
             Les environnements virtuels
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E5C430]  hover:bg-[#b99b18] px-6 py-2.5 rounded-sm self-start items-center">
             Utilisations principales
           </span>
         </div>

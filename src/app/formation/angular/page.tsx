@@ -25,37 +25,37 @@ export default function page() {
           />
         </Link>
         <div className="grid grid-cols-2 p-5 gap-2 *:text-zinc-800 ">
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5  rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5  rounded-sm self-start items-center">
             Components
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             Les Modules
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             Le data binding
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             Les directives
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             Les services
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             L'injection de dépendances
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             Le routing
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             Les observables (RxJS)
           </span>
-          <span className="bg-purple-500   hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             Les requêtes HTTP
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             Les formulaires
           </span>
-          <span className="bg-purple-500  hover:bg-purple-600 px-6 py-2.5 rounded-sm self-start items-center">
+          <span className="bg-[#E91E63]  hover:bg-[#AD1457] px-6 py-2.5 rounded-sm self-start items-center">
             Le CLI Angular
           </span>
         </div>
